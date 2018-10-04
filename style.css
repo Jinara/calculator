@@ -1,0 +1,104 @@
+.calculator {
+  display: flex;
+  justify-content: center;
+  margin-top: 5%;
+}
+
+.general-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 40%;
+}
+
+.display {
+  display: flex;
+  justify-content: center;
+  width: 47%;
+  border: 1px solid;
+  border-radius: 16px;
+  border-color: #d8a7b9;
+  margin: 1%;
+  padding: 2%;
+}
+
+.display label {
+  font-family: "Lucida Console", "Lucida Sans Typewriter", monaco, "Bitstream Vera Sans Mono", monospace;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 33px;
+}
+
+.keys {
+  display: flex;
+  justify-content: center;
+  width: 57%;
+  margin: 1%;
+  height: 53%;
+}
+
+.numbers {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 53%;
+  height: 70%;
+  margin: 1%;
+}
+
+.number {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+}
+
+.number button {
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.number button:hover {
+    background-color: #ef00ff; /* Green */
+    color: white;
+}
+
+.number.zero {
+  width: 100%;
+  height: 22%;
+}
+
+.functions {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 35%;
+  height: 70%;
+  margin: 1%;
+}
+
+.function {
+  display: flex;
+  justify-content: center;
+  width: 50px;
+  height: 80px;
+}
+
+.function button {
+  width: 100%;
+  border-radius: 8px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+}
+
+.function button:hover {
+    background-color: #ef00ff; /* Green */
+    color: white;
+}
+
+.function.equal {
+  width: 100%;
+  height: 22%;
+}
